@@ -1,0 +1,35 @@
+:root {
+	--back: #ffffff;
+	--back-light: #f6fafd;
+	--back-api: #eff8ff;
+	--prime: #ff3e00;
+	--second: #676778;
+	--flash: #40b3ff;
+	--heading: var(--second);
+	--text: #444;
+	--sidebar-text: rgba(255, 255, 255, 0.75);
+	--border-w: 0.3rem;
+	--border-r: 0.4rem;
+}
+
+body {
+	background: var(--back);
+	color: var(--text);
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+button {
+	display: inline-block;
+	text-align: right;
+	background-color: var(--prime);
+	padding: 0.5em 1em 0.5em 1em;
+	border-radius: var(--border-r);
+	border: none;
+	color: #fff;
+	position: relative;
+}
