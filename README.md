@@ -35,4 +35,12 @@ Before creating a production version of your app, install an [adapter](https://k
 npm run build
 ```
 
+## Serve Build Locally
+
+After creating the build version. Then test build locally:
+
+```bash
+npm run serve
+```
+
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
